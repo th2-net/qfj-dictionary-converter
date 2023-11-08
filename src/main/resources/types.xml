@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2023 Exactpro (Exactpro Systems Limited)
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<types>
+    <type qfj="UTCTIMESTAMPSECONDPRECISION" dict="java.time.LocalDateTime"/>
+    <type qfj="UTCTIMESTAMP" dict="java.time.LocalDateTime"/>
+    <type qfj="UTCTIMEONLY" dict="java.time.LocalTime" />
+    <type qfj="UTCDATE" dict="java.time.LocalDateTime" />
+    <type qfj="UTCDATEONLY" dict="java.time.LocalDate" />
+    <type qfj="TIME" dict="java.time.LocalDateTime" />
+    <type qfj="DATE" dict="java.time.LocalDateTime" />
+    <type qfj="DAYOFMONTH" dict="java.lang.Integer" />
+
+    <type qfj="STRING" dict="java.lang.String" />
+    <type qfj="CHAR" dict="java.lang.Character" />
+    <type qfj="PRICE" dict="java.math.BigDecimal" />
+    <type qfj="INT" dict="java.lang.Integer" />
+    <type qfj="LONG" dict="java.lang.Long" />
+    <type qfj="int" dict="java.lang.Integer" />
+    <type qfj="AMT" dict="java.math.BigDecimal" />
+    <type qfj="QTY" dict="java.math.BigDecimal" />
+    <type qfj="CURRENCY" dict="java.lang.String" />
+    <type qfj="BOOLEAN" dict="java.lang.Boolean" />
+    <type qfj="FLOAT" dict="java.math.BigDecimal" />
+    <type qfj="PRICEOFFSET" dict="java.math.BigDecimal" />
+    <type qfj="NUMINGROUP" dict="java.lang.Integer" />
+    <type qfj="PERCENTAGE" dict="java.math.BigDecimal" />
+    <type qfj="SEQNUM" dict="java.lang.Integer" />
+    <type qfj="LENGTH" dict="java.lang.Integer" />
+    <type qfj="COUNTRY" dict="java.lang.String" />
+    <type qfj="MULTIPLEVALUESTRING" dict="java.lang.String" />
+
+    <type qfj="TAGNUM" dict="java.lang.Long" />
+    <type qfj="XIDREF" dict="java.lang.String" />
+    <type qfj="LOCALMKTTIME" dict="java.lang.String" />
+    <type qfj="XID" dict="java.lang.String" />
+
+
+
+    <type qfj="TZTIMESTAMP" dict="java.lang.String" />
+    <type qfj="TZTIMEONLY" dict="java.lang.String" />
+    <type qfj="MULTIPLESTRINGVALUE" dict="java.lang.String" />
+    <type qfj="LOCALMKTDATE" dict="java.lang.String" />
+    <type qfj="DATA" dict="java.lang.String" />
+    <type qfj="EXCHANGE" dict="java.lang.String" />
+    <type qfj="MONTHYEAR" dict="java.lang.String" />
+    <type qfj="MULTIPLECHARVALUE" dict="java.lang.String" />
+    <type qfj="MONTH-YEAR" dict="java.lang.String" />
+    <type qfj="DAY-OF-MONTH" dict="java.lang.String" />
+    <type qfj="XMLDATA" dict="java.lang.String"/>
+    <type qfj="LANGUAGE" dict="java.lang.String"/>
+
+</types>
